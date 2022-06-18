@@ -16,10 +16,10 @@ Now you can press F5 for debugging the C/C++ application that runs in WSL.
 
 # Note
 ## Executible File Name
-Note that in the launch.json file; 
-`"program": "${workspaceFolder}/bin/main",`
-You can change the executible file name by changing the "main". 
-Also you need to change the name from the make file in the code below. 
+Note that in the launch.json file; \
+`"program": "${workspaceFolder}/bin/main",` \
+You can change the executible file name by changing the "main". \
+Also you need to change the name from the make file in the code below. \
 `EXECUTABLE  := main`
 
 ## Doesnt work on W10/W11 without WSL. 
